@@ -11,7 +11,7 @@ body{
     justify-content: center;
     align-items: center;
     font-family: 'Red Hat Display', sans-serif;
-    background-image: url("background-desktop.svg");
+    background-image: url("pattern-background-desktop.svg");
     background-repeat:repeat-x;
 }
 .container{
@@ -96,9 +96,9 @@ footer{
     margin-top: 2rem;
 }
 @media (max-width: 600px){
-    body
+    body{
         background-image: url("pattern-background-mobile.svg");
-        background-repeat:repeat-x;
+        background-size: 2000px;
     }
     
 
